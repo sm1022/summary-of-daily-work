@@ -1,0 +1,26 @@
+.myelement{
+    background:url(../img/follow/refresh2x.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: auto 20px;
+  }
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+  .myelement{
+    background:url(../img/follow/refresh2x.png) no-repeat;
+    background-size: auto 20px;
+    height: 20px;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (min-device-pixel-ratio: 3) {
+  .myelement{
+    background:url(../img/follow/refresh3x.png) no-repeat;
+    background-size: auto 20px;
+    height: 20px;
+  }
+}
